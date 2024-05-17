@@ -1,0 +1,52 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+    .header,
+    .footer {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .top-nav ul,
+    .side-nav ul {
+     list-style-type: none;
+    }
+
+   .top-nav ul li,
+   .side-nav ul li {
+       display: inline-block;
+       margin-right: 10px;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .poster-gallery {
+     display: flex;
+     justify-content: space-between;
+    }
+  
+    .poster {
+     margin: 10px;
+    }
+  
+    .poster img {
+     display: block; /* This removes any space below the images */
+     width: 100%; /* This makes sure that all images are of same width */
+     height: auto; /* This makes sure that all images maintain their aspect ratio */
+    }
+  
+
+
+
+.post-box{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    grid-gap:0.5px;
+    margin:2px 0px;
+    margin-right:10px;  
+
+}
